@@ -10,7 +10,7 @@ const output = document.querySelector("#city")
 const humidity = document.querySelector("#humidity")
 
 button.addEventListener("click", function(){
-    fetch("http://api.openweathermap.org/data/2.5/weather?q=" + input.value +"&APPID=" +apikey)
+    fetch("https://api.openweathermap.org/data/2.5/weather?q=" + input.value +"&APPID=" +apikey)
    
     .then(response => response.json())
     .then(data=>{
