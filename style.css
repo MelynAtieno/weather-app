@@ -6,7 +6,9 @@ padding-left: 10%;
 body{
     background-image: url(./weatherbackground.jpg);
     background-blend-mode: darken;
-    backdrop-filter: blur(3px);          
+    backdrop-filter: blur(3px);  
+    background-size: cover;
+    max-width: 100%;        
 }
 
 button{
